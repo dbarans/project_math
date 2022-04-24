@@ -8,3 +8,7 @@ class TestAdd:
 class TestSub:
     def test_add(self):
         assert algebra.sub(1, 4) == -3
+
+class TestDiv:
+    def test_div(self):
+        assert algebra.div(8, 4) == 2
