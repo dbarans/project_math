@@ -15,7 +15,6 @@ class TestSub:
         assert algebra.sub(7, 6) == 1
 
 
-
 class TestDiv:
     def test_div(self):
         assert algebra.div(8, 4) == 2
@@ -28,3 +27,10 @@ class TestMul:
         assert algebra.mul(8, 2) == 16
         assert algebra.mul(9, 4) == 36
         assert algebra.mul(4, 3) == 12
+
+
+class TestRowKwa:
+    def test_row_kwa(self):
+        assert algebra.rownanie_kwadr(1, -1, 0) == (1.0, 0.0)
+        assert algebra.rownanie_kwadr(1, 6, 9) == -3.0
+        assert algebra.rownanie_kwadr(3, 0, 4) == "brak rozwiązań"
