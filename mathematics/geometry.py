@@ -3,3 +3,6 @@ def kwadrat(a):
 
 def prostokat(a, b):
     return a * b
+
+def trojkat(a, b):
+    return a * b / 2
