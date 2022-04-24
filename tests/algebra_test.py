@@ -12,3 +12,7 @@ class TestSub:
 class TestDiv:
     def test_div(self):
         assert algebra.div(8, 4) == 2
+
+class TestMul:
+    def test_mul(self):
+        assert algebra.mul(8, 2) == 16
