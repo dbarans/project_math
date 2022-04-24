@@ -12,3 +12,7 @@ class TestProstokat:
 class TestTrojkat:
     def test_trojkat(self):
         assert geometry.trojkat(5, 6) == 15
+
+class TestKolo:
+    def test_trojkat(self):
+        assert geometry.kolo(1) == 3.141592653589793
